@@ -25,7 +25,8 @@
         <Switch
             android:id="@+id/switch_mode"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            />
 
 
 
@@ -66,4 +67,8 @@
     <include
         android:id="@+id/content_manual"
         layout="@layout/content_manual_mode" />
+
+    <include
+        android:id="@+id/content_auto"
+        layout="@layout/content_automatic_mode" />
 </LinearLayout>
