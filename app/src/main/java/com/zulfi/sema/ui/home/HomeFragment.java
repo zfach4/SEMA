@@ -35,12 +35,12 @@ public class HomeFragment extends Fragment {
         content_manual = view.findViewById(R.id.content_manual);
         content_auto = view.findViewById(R.id.content_auto);
 
-        switchMode.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                configureContentMode(isChecked);
-            }
-        });
+//        switchMode.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//                configureContentMode(isChecked);
+//            }
+//        });
 
 //        homeViewModel =
 //                new ViewModelProvider(this).get(HomeViewModel.class);

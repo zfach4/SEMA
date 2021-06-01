@@ -1,4 +1,4 @@
-package com.zulfi.sema.smart_energy;
+package com.zulfi.sema.ui.smart_energy;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -25,7 +25,7 @@ public class SmartEnergyFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.smart_energy_fragment, container, false);
+        return inflater.inflate(R.layout.fragment_smart_energy, container, false);
     }
 
     @Override

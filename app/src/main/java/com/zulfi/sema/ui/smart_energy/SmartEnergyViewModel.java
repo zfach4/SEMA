@@ -1,4 +1,4 @@
-package com.zulfi.sema.smart_energy;
+package com.zulfi.sema.ui.smart_energy;
 
 import androidx.lifecycle.ViewModel;
 
