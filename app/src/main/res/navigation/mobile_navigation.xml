@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.zulfi.sema.ui.gallery.GalleryFragment"
+        android:name="com.zulfi.sema.ui.smart_light.SmartLightFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.zulfi.sema.ui.slideshow.SlideshowFragment"
+        android:name="com.zulfi.sema.ui.about.AboutFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
